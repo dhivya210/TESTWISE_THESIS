@@ -46,11 +46,11 @@ TestWise is a full-stack web application designed to help development teams make
 -  **AI Chatbot** - RAG-powered assistant for tool-related questions
 -  **Secure Authentication** - Firebase-based authentication with email verification
 -  **Guest Mode** - Try the application without creating an account
-- 📄 **PDF Export** - Export evaluation results as PDF
-- 📈 **Evaluation History** - Track and review past evaluations
-- 🎨 **Modern UI** - Beautiful, responsive design with Tailwind CSS
-- ⚡ **Fast Performance** - Built with React 18 and Vite
-- 🌙 **Theme Support** - Light/Dark theme preferences
+-  **PDF Export** - Export evaluation results as PDF
+-  **Evaluation History** - Track and review past evaluations
+-  **Modern UI** - Beautiful, responsive design with Tailwind CSS
+-  **Fast Performance** - Built with React 18 and Vite
+-  **Theme Support** - Light/Dark theme preferences
 
 ### Technical Features
 - **RESTful API** - Express.js backend with SQLite database
@@ -60,7 +60,7 @@ TestWise is a full-stack web application designed to help development teams make
 - **Type Safety** - Full TypeScript implementation
 - **Error Handling** - Comprehensive error boundaries and validation
 
-## 🏗️ Architecture
+##  Architecture
 
 TestWise consists of three main components:
 
@@ -105,7 +105,7 @@ TestWise consists of three main components:
    - FAISS vector store
    - Knowledge base ingestion
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: React 19.1.1
@@ -136,7 +136,7 @@ TestWise consists of three main components:
 - **Vector Store**: FAISS 1.8.0
 - **Server**: Uvicorn
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -199,7 +199,7 @@ python scripts/ingest_kb.py --dir kb
 
 This processes the knowledge base files and creates the vector store.
 
-## ⚙️ Configuration
+## Configuration
 
 ### Frontend Configuration
 
@@ -245,7 +245,7 @@ OPENAI_API_KEY=your-openai-api-key-here
    - Generate new private key
    - Save as `backend-server/firebase-admin-key.json`
 
-## 🏃 Running the Application
+## Running the Application
 
 ### Development Mode
 
@@ -266,7 +266,7 @@ Backend API will be available at `http://localhost:3001`
 
 #### Terminal 3: RAG Backend (Optional)
 ```bash
-cd backend-rag/src
+cd backend-rag
 python main.py
 ```
 RAG Backend will be available at `http://localhost:8000`
@@ -306,7 +306,7 @@ cd backend-rag/src
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 testwise/
@@ -524,7 +524,7 @@ cd backend-server
 npm run check-all
 ```
 
-## 🔐 Authentication
+## Authentication
 
 TestWise supports multiple authentication methods:
 
@@ -609,7 +609,7 @@ python scripts/ingest_kb.py --dir kb
 - `start-rag-backend.bat` - Start RAG backend
 - `clear-all-users.bat` - Clear all user data
 
-## 🚢 Deployment
+##  Deployment
 
 ### Frontend Deployment
 
@@ -670,7 +670,7 @@ Ensure all environment variables are set in your deployment platform:
 - Backend: `PORT`
 - RAG Backend: `OPENAI_API_KEY`
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -714,7 +714,7 @@ npm run init-db  # Reinitialize database
 3. Verify all environment variables are set correctly
 4. Ensure all services are running
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -732,11 +732,11 @@ Contributions are welcome! Please follow these steps:
 - Update documentation as needed
 - Follow the existing code style
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [React](https://react.dev/) - UI framework
 - [Vite](https://vitejs.dev/) - Build tool
@@ -747,10 +747,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [OpenAI](https://openai.com/) - LLM and embeddings
 - [Firebase](https://firebase.google.com/) - Authentication
 
-## 📞 Contact
+## Contact
 
 For questions, issues, or contributions, please open an issue on GitHub.
 
 ---
 
-**Made with ❤️ for the testing community**
+**Made for the testing community**
