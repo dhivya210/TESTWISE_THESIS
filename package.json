@@ -1,0 +1,40 @@
+{
+  "name": "testwise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TestWise - Test Automation Tool Decision Support System",
+  "workspaces": [
+    "frontend",
+    "backend-server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend-server",
+    "build": "npm run build --workspace=frontend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "install:all": "npm install && npm install --workspace=frontend && npm install --workspace=backend-server",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend-server && npm run dev"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/testwise.git"
+  },
+  "keywords": [
+    "test-automation",
+    "selenium",
+    "playwright",
+    "testim",
+    "mabl",
+    "decision-support"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
+
